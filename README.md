@@ -1,33 +1,37 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
-
-
 # Quizzler ❓
 
-## Our Goal
-
-In this tutorial we will be reviewing Stateful and Stateless Widgets as well as learning about the fundamental building blocks of Object Oriented Programming (OOP) - Classes and Objects. 
-
-
-## What you will create
-
-We’re going to make a quiz app that tests your general knowledge. As one of the most popular types of apps on the app stores, you can create your own quiz for other people to enjoy!
+## What I have tried
 
 ![Finished App](https://github.com/londonappbrewery/Images/blob/master/quizzler-demo.gif)
 
-## What you will learn
+## Getting Started
+* Install dependencies
+```sh
+    $ flutter pub get
+```
 
-- Modularising your code into separate classes.
-- Dart classes and objects.
-- Using class constructors.
-- Extracting Widgets to refactor your code.
-- private and public modifiers in Dart.
-- How to use Dart lists.
-- The difference between var, const and final.
+* Start building  
+Use emulator or a physical device connected by USB
+```sh
+    $ flutter run
+```
 
-## Code Snippet for Project
+* Create APK
+```sh
+    $ flutter build apk --split-per-abi
+```
+
+### Install for Android
+- [64 bit apk](https://www.github.com/raj-vora/quizzler-flutter/blob/master/apks/i-am-rich-arm64.apk?raw=true)
+- [32 bit apk](https://www.github.com/raj-vora/quizzler-flutter/blob/master/apks/i-am-rich-armeabi.apk?raw=true)
+
+
+## How to customise the quiz for your need (as a developer)
+Replace
 
 ```
-Question('Some cats are actually allergic to humans', true),
+List<Question> _questionBank = [
+    Question('Some cats are actually allergic to humans', true),
     Question('You can lead a cow down stairs but not up stairs.', false),
     Question('Approximately one quarter of human bones are in the feet.', true),
     Question('A slug\'s blood is green.', true),
@@ -52,10 +56,11 @@ Question('Some cats are actually allergic to humans', true),
     Question(
         'In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.',
         true),
+]
 
-```
-
+```  
+with a list of your own questions with boolean answers  
+  
+Or else update [question.dart](https://github.com/raj-vora/quizzler-flutter/blob/master/lib/question.dart) to your own class of questions and make necessary changes in (main.dart)[https://github.com/raj-vora/quizzler-flutter/blob/master/lib/main.dart] and (quiz_brain.dart)[https://github.com/raj-vora/quizzler-flutter/blob/master/lib/quiz_brain.dart].  
 
 >This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
