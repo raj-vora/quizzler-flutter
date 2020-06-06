@@ -22,8 +22,8 @@ Use emulator or a physical device connected by USB
 ```
 
 ### Install for Android
-- [64 bit apk](https://www.github.com/raj-vora/quizzler-flutter/blob/master/apks/i-am-rich-arm64.apk?raw=true)
-- [32 bit apk](https://www.github.com/raj-vora/quizzler-flutter/blob/master/apks/i-am-rich-armeabi.apk?raw=true)
+- [64 bit apk](https://www.github.com/raj-vora/quizzler-flutter/blob/master/apks/quizzler-arm64.apk?raw=true)
+- [32 bit apk](https://www.github.com/raj-vora/quizzler-flutter/blob/master/apks/quizzler-armeabi.apk?raw=true)
 
 
 ## How to customise the quiz for your need (as a developer)
