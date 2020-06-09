@@ -1,5 +1,7 @@
 # Quizzler ❓
 
+A new Flutter application.
+
 ## What I have tried
 
 ![Finished App](https://github.com/londonappbrewery/Images/blob/master/quizzler-demo.gif)
